@@ -1822,7 +1822,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 quote=True,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
-                                                    InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)]])  # web stream Link
+                                                    InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)]]))  # web stream Link
             button = [[
                 InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
                 InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
